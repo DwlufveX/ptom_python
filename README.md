@@ -2,6 +2,14 @@
 
 This project provides tools to **batch convert MATLAB `.p` files into readable `.m` files**, with improved formatting and better compatibility for further editing and review.
 
+---
+## 📝 Future Plans
+
+- The current formatting process relies on Python scripts, which can be slow for large batches.
+- In future updates, **formatting will be integrated directly into the C-based decryption workflow** to significantly improve performance.
+
+
+
 ## ✨ Version Update
 
 - **Formatted** the decoded `.m` files to make them easier for users to read.
@@ -48,6 +56,4 @@ This project provides tools to **batch convert MATLAB `.p` files into readable `
 3. **Dependencies**
    - Make sure `zlib1.dll` is available in your system `PATH` when using `ptom.exe`.
 
----
 
-Feel free to customize this README or add sections with examples and build instructions.
