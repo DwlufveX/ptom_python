@@ -46,9 +46,17 @@ This project provides tools to **batch convert MATLAB `.p` files into readable `
 - Ensures smoother integration when called programmatically.
 
 ## ⚙️ Usage
-
-1. **Batch Conversion**
-   - Use `pFile2m.exe` to convert multiple `.p` files in a folder to `.m` files.
+ 1. Batch Conversion
+- **Graphical Interface (Recommended):**
+  Double-click `pFile2m.exe` (or run `pfile2m.py`) to launch the user interface.
+  - Click **“选择 P 文件”** to select one or more `.p` files.
+  - The tool will automatically:
+    - Convert each `.p` file to a `.m` file.
+    - Format the `.m` file for better readability.
+- **Command Line:**
+  You can also start the conversion tool from a terminal:
+  ```bash
+  python pfile2m.py
 
 2. **Formatting**
    - After conversion, apply the [MATLAB Formatter for VSCode](https://github.com/affenwiesel/matlab-formatter-vscode) to further clean up the code.
